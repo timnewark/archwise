@@ -588,6 +588,24 @@ ul.dropdown-menu li {
   padding: 120px 0px;
   min-height: 800px;
 }
+@media (max-width: 900px) {
+  .banner {
+    background: url("../images/bg/main-banner-1-small.jpg") no-repeat 80% 50% !important;
+    background-size: cover !important;
+  }
+}
+
+/* functionality of main page <700pixels image */
+.mobile-image-main-page {
+  display: none;
+}
+
+/* end */
+@media (max-width: 700px) {
+  .mobile-image-main-page {
+      display: block;
+  }
+}
 .banner .block {
   padding-top: 120px;
 }
