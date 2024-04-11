@@ -1,4 +1,4 @@
-user-agent: *
-disallow: /cgi-bin/
-disallow: /blog-single.html
-sitemap: https://archwellbuildingsurveying.co.uk/sitemap.xml
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /blog-single.html
+Sitemap: https://archwellbuildingsurveying.co.uk/sitemap.xml
