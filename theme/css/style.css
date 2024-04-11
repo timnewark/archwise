@@ -1,10 +1,11 @@
 
 
-/*=== MEDIA QUERY ===*/
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,600,700|Montserrat:900,700");
+/*=== MEDIA QUERY (added swap) ===*/
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,600,700|Montserrat:900,700&display=swap");
 html {
   overflow-x: hidden;
 }
+
 
 body {
   line-height: 1.6;
