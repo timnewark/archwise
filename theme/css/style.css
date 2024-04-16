@@ -1571,6 +1571,8 @@ ul.dropdown-menu li {
 }
 
 .widget-contact h6 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
   font-weight: 500;
   margin-bottom: 18px;
 }
