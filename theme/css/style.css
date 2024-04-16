@@ -1134,6 +1134,14 @@ ul.dropdown-menu li {
   width: 100%;
 }
 
+.whatsapp-contact-section {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 50px; 
+
+}
+
+
 .address-block li {
   margin-bottom: 15px;
 }
