@@ -31,16 +31,7 @@
 
    <!-- contactFormBoxSize-->
    
-   <style>
-    .form-container {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    .form-control {
-      height: auto;
-    }
-  </style>
+
 </head>
 
 <body>
@@ -106,65 +97,62 @@
   </div>
 </section>
 
-<!-- WhatsApp Contact banner Start  
+
+<!-- WhatsApp Contact banner Start  -->
 <section class="whatsapp-contact-section" style="margin-top: 30px;" >
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-left">
-        <span class="text-color" >Send a message:</span>
-        <h3> <a href="https://wa.me/447933001896" aria-label="WhatsApp us on 07933 001 896" >WhatsApp Us On: 07933 001 896</a></h3>
+        <span class="text-color" >Whatsapp us on:</span><br><br>
+        <h3> <a href="https://wa.me/447933001896" aria-label="WhatsApp us on 07933 001 896" >07933 001 896</a></h3>
       </div>
     </div>
   </div>
 </section>
- WhatsApp Contact banner End -->
-
-
+<!--WhatsApp Contact banner End -->
 
 <!-- contact form start -->
-<!--https://developers.cloudflare.com/pages/tutorials/add-an-html-form-with-formspree/-->
-
 <section class="contact-form-wrap section">
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-lg-12">
-        <div class="form-container">
-          <form method="POST" action="https://formspree.io/f/xbjneyvk">
-            <div class="form-group">
-              <label for="name">Full Name</label>
-              <input id="name" type="text" name="name" class="form-control" pattern="[A-Za-z]+" required />
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone Number</label>
-              <input id="phone" type="tel" name="phone" class="form-control" pattern="[0-9]{10,15}" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Email Address</label>
-              <input id="email" type="email" name="email" class="form-control" required />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-main btn-block">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <span class="text-color">Send a message</span>
+        <h3 class="text-md mb-5">Contact Form</h3>
 
-
-
-
-
-
+        <div class="row">
+          <div class="col-lg-8">
+            <form method="POST" action="https://formspree.io/f/xbjneyvk">
+              <div class="form-group">
+                <label for="name">Full Name:</label>
+                <br> <!-- Add a line break -->
+                <input id="name" type="text" name="name" class="form-control" style="border: 1px solid #a7a7a7; border-radius: 6px;" pattern="[A-Za-z]+" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input id="phone" type="tel" name="phone" class="form-control" style="border: 1px solid #a7a7a7; border-radius: 6px;" pattern="[0-9]{10,15}" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input id="email" type="email" name="email" class="form-control" style="border: 1px solid #a7a7a7; border-radius: 6px;" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="form-control" style="border: 1px solid #a7a7a7; border-radius: 6px; height: 150px;" rows="8" required></textarea>
+              </div>
+              <div class="form-group">
+                <br>
+                <button type="submit" class="btn btn-main btn-block">Submit</button>
+              </div>
+            </form>
+          </div>
+          
+          
           <div class="col-lg-4">
             <div class="short-info mt-5 mt-lg-0">
               <ul class="list-unstyled">
                 <li>
                   <h5>Call Us</h5>
-                  07933 001 896
+                  07510 161 555
                 </li>
                 <li>
                   <h5>Email Us</h5>
