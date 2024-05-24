@@ -188,6 +188,24 @@
         </div>
       </div>
     </div>
+    <script>
+      
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 51.48763, lng: -3.14839},
+          zoom: 15 // Adjust the zoom level as needed
+        });
+      
+        // Optionally, add a marker
+        var marker = new google.maps.Marker({
+          position: {lat: YOUR_MARKER_LATITUDE, lng: YOUR_MARKER_LONGITUDE},
+          map: map,
+          title: 'Marker Title' // Optional: add a title to the marker
+        });
+      }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>   
 
     <div class="row">
       <div class="col-lg-4 col-md-6">
@@ -334,7 +352,7 @@
     <!-- Google Map -->
     <script src="plugins/google-map/map.js"></script>
     
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+     
     <script src="js/script.js"></script>
 
     <!-- formHandler script -->
