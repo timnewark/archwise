@@ -1,15 +1,15 @@
 @charset 'UTF-8';
 
 .slick-loading .slick-list {
-    background: #fff url(https://archwellbuildingsurveying.co.uk/plugins/slick-carousel/slick/ajax-loader.gif) center center no-repeat
+    background: #fff url(https://archwisebuildingsurveyors.co.uk/plugins/slick-carousel/slick/ajax-loader.gif) center center no-repeat
 }
 
 @font-face {
     font-family: slick;
     font-weight: 400;
     font-style: normal;
-    src: url(https://archwellbuildingsurveying.co.uk/plugins/slick-carousel/slick/fonts/slick.eot);
-    src: url(https://archwellbuildingsurveying.co.uk/plugins/slick-carousel/slick/fonts/slick.eot?#iefix) format('embedded-opentype'), url(https://archwellbuildingsurveying.co.uk/plugins/slick-carousel/slick/fonts/slick.woff) format('woff'), url(https://archwellbuildingsurveying.co.uk/plugins/slick-carousel/slick/fonts/slick.ttf) format('truetype'), url(https://archwellbuildingsurveying.co.uk/plugins/slick-carousel/slick/fonts/slick.svg#slick) format('svg')
+    src: url(https://archwisebuildingsurveyors.co.uk/plugins/slick-carousel/slick/fonts/slick.eot);
+    src: url(https://archwisebuildingsurveyors.co.uk/plugins/slick-carousel/slick/fonts/slick.eot?#iefix) format('embedded-opentype'), url(https://archwisebuildingsurveyors.co.uk/plugins/slick-carousel/slick/fonts/slick.woff) format('woff'), url(https://archwisebuildingsurveyors.co.uk/plugins/slick-carousel/slick/fonts/slick.ttf) format('truetype'), url(https://archwisebuildingsurveyors.co.uk/plugins/slick-carousel/slick/fonts/slick.svg#slick) format('svg')
 }
 
 .slick-next,
