@@ -122,11 +122,11 @@
               <div class="form-group">
                 <label for="name">Full Name:</label>
                 <br> <!-- Add a line break -->
-                <input id="name" type="text" name="name" class="form-control" style="max-width: 550px; border: 1px solid #a7a7a7; border-radius: 6px;" pattern="[A-Za-z]+" required />
-              </div>
+                <input id="name" type="text" name="name" class="form-control" style="max-width: 550px; border: 1px solid #a7a7a7; border-radius: 6px;" pattern="[A-Za-z\s\(\)\[\]\{\}\+\-\*\.\!\@\#\$\%\^\&\_\=\|\`\~\<\>\,\?\/]+" required />
+
               <div class="form-group">
                 <label for="phone">Phone Number:</label>
-                <input id="phone" type="tel" name="phone" class="form-control" style="max-width: 550px; border: 1px solid #a7a7a7; border-radius: 6px;" pattern="[0-9]{10,15}" required />
+                <input id="phone" type="tel" name="phone" class="form-control" style="max-width: 550px; border: 1px solid #a7a7a7; border-radius: 6px;" pattern="([0-9]\s*){10,15}" required />
               </div>
               <div class="form-group">
                 <label for="email">Email Address:</label>
