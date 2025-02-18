@@ -1491,6 +1491,13 @@ ul.dropdown-menu li {
   margin-left: 10px
 }
 
+.wide-image {
+  width: 100%;  /* Makes the image take the full width of its container */
+  height: auto; /* Keeps the original aspect ratio (prevents distortion) */
+  max-height: 150px; /* Limits the image height to 50px (prevents it from being too tall) */
+  object-fit: cover; /* Ensures the image fills the space while maintaining proportions */
+}
+
 .sidebar-widget.tags a {
   font-size: 12px;
   text-transform: uppercase;
